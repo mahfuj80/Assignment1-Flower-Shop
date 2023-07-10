@@ -186,7 +186,8 @@
     margin: 20px;
 }
 
-.sign-up-description button {
+.sign-up-description button,
+.coupon-subscribe-button {
     padding: 20px 43px;
     border-radius: 8px;
     background: #E55473;
@@ -236,3 +237,21 @@
 }
 
 /* Album Section End */
+
+/* Subscribe Section Start  */
+
+.subscribe {
+    text-align: center;
+}
+
+.subscribe input {
+    padding: 50px;
+}
+
+.coupon {
+
+    background-image: url('../Flower_Asset/coupon_background.png');
+    margin: 10px 170px;
+}
+
+/* Subscribe Section End  */
