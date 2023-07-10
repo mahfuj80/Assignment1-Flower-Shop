@@ -1,0 +1,62 @@
+/* Universlal Selector Start */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Universlal Selector End */
+
+/* Header Banner CSS Start */
+.first-banner {
+    height: 85vh;
+    width: 100%;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.first-banner-headlines {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-right: -116px;
+}
+
+.first-banner-headlines h1 {
+    color: #272727;
+    font-size: 58px;
+    font-weight: 800;
+}
+
+.first-banner-headlines p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 350px;
+    line-height: 25px;
+}
+
+.first-banner-image img {
+    width: 450px;
+    height: 535px;
+}
+
+.first-banner-btn {
+    padding: 20px 15px;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+}
+
+/* Header Banner CSS End */
