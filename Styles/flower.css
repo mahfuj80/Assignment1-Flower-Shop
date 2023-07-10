@@ -174,6 +174,10 @@
     font-weight: 800;
 }
 
+.sign-up-description span {
+    color: #E55473;
+}
+
 .sign-up-description p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -190,9 +194,45 @@
     border: 0;
 }
 
+/* Sign Up Section End */
 
-.sign-up-description span {
-    color: #E55473;
+/* Album Section Start */
+.album {
+    text-align: center;
+    padding: 64px 200px;
 }
 
-/* Sign Up Section End */
+.album-heading {
+    padding: 41px 100px;
+}
+
+.album-heading h1 {
+    width: 50%;
+    color: #272727;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.album-heading p {
+    padding-top: 20px;
+    width: 84%;
+    color: #272727;
+    margin: auto;
+    text-align: center;
+}
+
+.album-pictures {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+
+.album-picture img {
+    width: 235px;
+}
+
+/* Album Section End */
