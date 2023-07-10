@@ -141,3 +141,58 @@
 }
 
 /* Benefit Section End */
+
+/* Sign Up Section Start */
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+}
+
+.sign-up-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding: 100px 200px;
+    margin: auto;
+}
+
+.sign-up-description {
+    text-align: center;
+}
+
+.sign-up-image img {
+    height: 300px;
+}
+
+.sign-up-description h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.sign-up-description p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px;
+}
+
+.sign-up-description button {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    border: 0;
+}
+
+
+.sign-up-description span {
+    color: #E55473;
+}
+
+/* Sign Up Section End */
