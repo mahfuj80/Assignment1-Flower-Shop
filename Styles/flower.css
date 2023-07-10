@@ -79,9 +79,7 @@
 }
 
 .featured-flower {
-    /* padding: 200px 0px; */
     text-align: center;
-    /* height: 80vh; */
 }
 
 .featured-flower-images {
@@ -91,10 +89,6 @@
     justify-content: space-around;
     margin: auto;
 }
-
-/* .featured-flower-image {
-    text-align: center;
-} */
 
 .featured-flower {
     padding-top: 150px;
@@ -127,5 +121,23 @@
 
 }
 
-
 /* Featured Flower Section End */
+
+/* Benefit Section Start */
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 170px;
+    text-align: center;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 50px;
+    border-radius: 8px;
+
+}
+
+.benefits-item img {
+    width: 60px;
+    padding-bottom: 10px;
+}
+
+/* Benefit Section End */
