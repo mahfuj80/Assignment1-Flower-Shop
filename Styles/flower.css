@@ -58,6 +58,7 @@
     border-radius: 8px;
     background: #E55473;
     border: 0;
+    cursor: pointer;
 }
 
 /* Header Banner CSS End */
@@ -219,6 +220,7 @@
     background: #E55473;
     color: white;
     border: 0;
+    cursor: pointer;
 }
 
 /* Sign Up Section End */
