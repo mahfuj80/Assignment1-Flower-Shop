@@ -39,6 +39,7 @@
     font-size: 18px;
     font-weight: 350px;
     line-height: 25px;
+    margin: 20px 0px;
 }
 
 .first-banner-image img {
@@ -73,9 +74,13 @@
 
 .featured-flower-heading p {
     width: 45%;
-    color: #272727;
+    padding-top: 20px;
     margin: auto;
     text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .featured-flower {
@@ -103,7 +108,17 @@
     text-decoration: underline;
 }
 
-.featured-flower-image-bg {
+.featured-flower-image-bg1 {
+    width: 320px;
+    height: 350px;
+    display: flex;
+    align-items: end;
+    text-align: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-flower-image-bg2 {
     width: 320px;
     height: 350px;
     display: flex;
@@ -112,6 +127,17 @@
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
+
+.featured-flower-image-bg3 {
+    width: 320px;
+    height: 350px;
+    display: flex;
+    align-items: end;
+    text-align: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
 
 .featured-flower-image img {
     width: 206px;
@@ -219,9 +245,12 @@
 .album-heading p {
     padding-top: 20px;
     width: 84%;
-    color: #272727;
     margin: auto;
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .album-pictures {
@@ -266,9 +295,12 @@
 .coupon-heading p {
     padding-top: 20px;
     width: 84%;
-    color: #272727;
     margin: auto;
     text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .subscribe {
@@ -311,6 +343,10 @@ footer span {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+footer small {
+    color: rgba(255, 255, 255, 0.40);
 }
 
 /* Footer Section End */
