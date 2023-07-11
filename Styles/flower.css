@@ -238,7 +238,7 @@
 
 /* Album Section End */
 
-/* Subscribe Section Start  */
+/* Coupon Section Start  */
 
 .coupon {
 
@@ -276,13 +276,41 @@
     padding-bottom: 70px;
 }
 
-
 .subscribe input {
     border: 0;
     border-radius: 8px;
     padding: 17px 283px 17px 12px;
 }
 
-/* .subscribe input::placeholder {} */
+/* Coupon Section End  */
 
-/* Subscribe Section End  */
+/* Footer Section Start  */
+footer {
+    text-align: center;
+    padding: 108px 330px;
+    margin-top: 140px;
+    color: white;
+    background-color: #111010;
+}
+
+footer span {
+    color: #E55473;
+}
+
+.footer-heading {
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.footer-paragraph {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* Footer Section End */
