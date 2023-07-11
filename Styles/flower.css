@@ -240,18 +240,49 @@
 
 /* Subscribe Section Start  */
 
-.subscribe {
-    text-align: center;
-}
-
-.subscribe input {
-    padding: 50px;
-}
-
 .coupon {
 
     background-image: url('../Flower_Asset/coupon_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0px;
+
     margin: 10px 170px;
 }
+
+.coupon-heading {
+    padding: 41px 100px;
+}
+
+.coupon-heading h1 {
+    width: 55%;
+    color: #272727;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.coupon-heading p {
+    padding-top: 20px;
+    width: 84%;
+    color: #272727;
+    margin: auto;
+    text-align: center;
+}
+
+.subscribe {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+
+.subscribe input {
+    border: 0;
+    border-radius: 8px;
+    padding: 17px 283px 17px 12px;
+}
+
+/* .subscribe input::placeholder {} */
 
 /* Subscribe Section End  */
